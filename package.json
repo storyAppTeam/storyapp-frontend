@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-on-netlify",
     "start": "next start",
     "test": "jest",
     "lint": "eslint ."
@@ -29,6 +30,7 @@
     "eslint-plugin-react": "^7.20.6",
     "jest": "^26.4.0",
     "jest-dom": "^4.0.0",
+    "next-on-netlify": "^2.3.2",
     "typescript": "^3.9.7"
   }
 }
